@@ -6,7 +6,7 @@ const userCountElement = document.getElementById('userCount');
 const messageContainer = document.querySelector(".container");
 const typingIndicator = document.getElementById('typingIndicator');
 let isTyping = false;
-var audio = new Audio('ting.mp3');
+var audio = new Audio('assets/ting.mp3');
 
 const showTypingIndicator = (user) => {
     typingIndicator.innerText = `${user} is typing...`;
